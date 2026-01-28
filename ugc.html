@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverBackDown™ - UGC</title>
+    <link rel="icon" href="a.png" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            background: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Barra superior */
+        .navbar {
+            width: 100%;
+            background: #111111;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #333;
+            box-sizing: border-box;
+        }
+
+        /* Contenedor del título con logo */
+        .navbar-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .navbar-title img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+
+        .navbar h1 {
+            font-size: 22px;
+            margin: 0;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Enlaces del menú */
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        .navbar a:hover {
+            color: #00aeff;
+        }
+
+        /* Contenido principal */
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Contenedor de tarjetas UGC */
+        .ugc-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .ugc-card {
+            width: 250px;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .ugc-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ffffff;
+        }
+
+        .ugc-card a {
+            color: inherit;
+            text-decoration: none;
+            display: block;
+        }
+
+        .ugc-image {
+            width: 100%;
+            display: block;
+        }
+
+        .ugc-info {
+            padding: 10px;
+        }
+
+        .ugc-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 18px;
+        }
+
+        .ugc-info p {
+            margin: 2px 0;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            border-top: 1px solid #333;
+            font-size: 14px;
+            color: #bbbbbb;
+        }
+
+        .footer a {
+            color: #00aeff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-title">
+            <img src="a.png" alt="NBD Logo">
+            <h1>NeverBackDown™ - UGC</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Index</a>
+            <a href="info.html">Info</a>
+            <a href="server.html">Discord</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>UGC</h2>
+        <p style="text-align: center;">¡Bienvenido a la sección de UGC!</p>
+        
+        <div class="ugc-container">
+            <div class="ugc-card">
+                <a href="https://www.roblox.com/share?code=8eb53638b2b10d46b964feac9312ef76&type=AvatarItemDetails" target="_blank">
+                    <img src="https://tr.rbxcdn.com/180DAY-f066f22dbb3f9676bb2cf92c9dd3cdb8/420/420/Shirt/Webp/noFilter" alt="UGC Roblox" class="ugc-image">
+                    <div class="ugc-info">
+                        <h3>NBD [+]</h3>
+                        <p>Tipo: Camiseta Clásica</p>
+                        <p>Precio: 5 Robux</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+            <div class="ugc-container">
+            <div class="ugc-card">
+                <a href="https://www.roblox.com/share?code=820823ef199dfa48acfd13990e7b3214&type=AvatarItemDetails" target="_blank">
+                    <img src="https://tr.rbxcdn.com/180DAY-067973e5001534d0526ebcb7f55eb4d0/420/420/Pants/Webp/noFilter" alt="UGC Roblox" class="ugc-image">
+                    <div class="ugc-info">
+                        <h3>NBD [-]</h3>
+                        <p>Tipo: Camiseta Clásica</p>
+                        <p>Precio: 5 Robux</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 NeverBackDown — Developed by 
+        <a href="https://lukiblokck.github.io" target="_blank">Lukiblokck</a>
+    </div>
+
+</body>
+</html>
